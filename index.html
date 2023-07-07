@@ -3,73 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ConfluenceSchools - Edu Tech Institute</title>
+  <title>ConfluenceSchools - Educational Technology Institute</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .frame {
+      width: 200px;
+      background-color: #539be7;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .content {
+      flex: 1;
     }
 
     h1 {
       color: #333;
       text-align: center;
+      margin-top: 20px;
     }
 
     p {
       color: #555;
       line-height: 1.6;
     }
+
+    h2 {
+      color: #333;
+      margin-top: 40px;
+    }
+
+    ul {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    address {
+      margin-top: 20px;
+      font-style: normal;
+      color: #333;
+    }
+    
+    .section-index {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to ConfluenceSchools</h1>
+  <div class="container">
+    <div class="frame">
+      <h3>Context</h3>
+      <p>
+        <a href="#about-us" class="section-index">1.</a> About Us<br>
+        <a href="#our-mission" class="section-index">2.</a> Our Mission<br>
+        <a href="#what-we-offer" class="section-index">3.</a> What We Offer<br>
+        <a href="#why-choose-confluenceschools" class="section-index">4.</a> Why Choose ConfluenceSchools<br>
+        <a href="#contact-us" class="section-index">5.</a> Contact Us
+      </p>
+      <address>
+        ConfluenceSchools<br>
+        R.T.Nagar Post<br>
+        Bangalore, 560032<br>
+        Phone: +91 9986006002<br>
+        Email: info@confluenceschools.com<br>
+      </address>
+    </div>
+    <div class="content">
+      <h1>Welcome to ConfluenceSchools</h1>
   
-  <h2>About Us</h2>
-  <p>
-    ConfluenceSchools is an educational technology institute dedicated to providing high-quality computer education to students. We believe in the power of technology to transform education and prepare students for the future.
-  </p>
-  
-  <h2>Our Mission</h2>
-  <p>
-    Our mission is to empower students with the knowledge and skills they need to succeed in a rapidly evolving digital world. We strive to create innovative curricula that combine theoretical knowledge with practical application, preparing students for the challenges of the modern workforce.
-  </p>
-  
-  <h2>What We Offer</h2>
-  <p>
-    At ConfluenceSchools, we offer a wide range of computer education programs and services, including:
-  </p>
-  <ul>
-    <li>Comprehensive computer science courses</li>
-    <li>Programming languages and software development</li>
-    <li>Data science and analytics</li>
-    <li>Web development and design</li>
-    <li>Cybersecurity and ethical hacking</li>
-    <li>Robotics and artificial intelligence</li>
-  </ul>
-  
-  <h2>Why Choose ConfluenceSchools?</h2>
-  <p>
-    Choosing ConfluenceSchools for your computer education needs provides numerous benefits, including:
-  </p>
-  <ul>
-    <li>Experienced and qualified instructors</li>
-    <li>Hands-on learning experiences</li>
-    <li>State-of-the-art facilities and equipment</li>
-    <li>Industry-relevant curriculum</li>
-    <li>Career guidance and placement assistance</li>
-  </ul>
-  
-  <h2>Contact Us</h2>
-  <p>
-    If you have any questions or would like to learn more about our programs, please don't hesitate to get in touch with us. You can reach us at:
-  </p>
-  <address>
-    ConfluenceSchools<br>
-    R.T.Nagar Post<br>
-    Bangalore, 560032<br>
-    Phone: +91 9986006002<br>
-    Email: info@confluenceschools.com<br>
-  </address>
+      <h2 id="about-us">About Us</h2>
+      <p>
+        ConfluenceSchools is a leading educational technology institute dedicated to providing exceptional computer education to students. Our institution embraces the power of technology to revolutionize learning and equip students with vital skills for the future.
+      </p>
+      
+      <h2 id="our-mission">Our Mission</h2>
+      <p>
+        Our mission is to empower students with the knowledge and expertise required to thrive in an ever-changing digital landscape. We are committed to crafting innovative curricula that integrate theoretical concepts with practical application, preparing students to meet the demands of the modern workforce.
+      </p>
+      
+      <h2 id="what-we-offer">What We Offer</h2>
+      <p>
+        At ConfluenceSchools, we provide a diverse range of comprehensive computer education programs and services, including:
+      </p>
+      <ul>
+        <li>Advanced computer science courses</li>
+        <li>Programming languages and software development</li>
+        <li>Data science and analytics</li>
+        <li>Web development and design</li>
+        <li>Cybersecurity and ethical hacking</li>
+        <li>Robotics and artificial intelligence</li>
+      </ul>
+      
+      <h2 id="why-choose-confluenceschools">Why Choose ConfluenceSchools</h2>
+      <p>
+        Opting for ConfluenceSchools offers several advantages:
+      </p>
+      <ul>
+        <li>Seasoned and highly qualified instructors</li>
+        <li>Interactive and hands-on learning experiences</li>
+        <li>State-of-the-art facilities and cutting-edge equipment</li>
+        <li>Industry-relevant and up-to-date curriculum</li>
+        <li>Personalized career guidance and placement assistance</li>
+      </ul>
+      
+      <h2 id="contact-us">Contact Us</h2>
+      <p>
+        Should you have any inquiries or require further information about our programs, please feel free to contact us using the details provided below:
+      </p>
+      <address>
+        ConfluenceSchools<br>
+        R.T.Nagar Post<br>
+        Bangalore, 560032<br>
+        Phone: +91 9986006002<br>
+        Email: info@confluenceschools.com<br>
+      </address>
+    </div>
+  </div>
 </body>
 </html>
