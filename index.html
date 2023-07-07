@@ -60,12 +60,23 @@
       font-weight: bold;
       margin-bottom: 10px;
     }
+
+    /* Media Query for Mobile Devices */
+    @media (max-width: 767px) {
+      .frame {
+        display: none;
+      }
+
+      .content {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="frame">
-      <h3>Context</h3>
+      <h3>Index</h3>
       <p>
         <a href="#about-us" class="section-index">1.</a> About Us<br>
         <a href="#our-mission" class="section-index">2.</a> Our Mission<br>
